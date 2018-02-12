@@ -1,0 +1,33 @@
+{
+  "name": "worker-timers-ssr-example",
+  "version": "1.0.0",
+  "description": "An example showing how to use [worker-timers](https://github.com/chrisguttandin/worker-timers) on server-side rendered code. This example uses webpack, express and React.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newyork-anthonyng/worker-timers-ssr-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newyork-anthonyng/worker-timers-ssr-example/issues"
+  },
+  "homepage": "https://github.com/newyork-anthonyng/worker-timers-ssr-example#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "worker-timers": "^4.0.21"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.11.0"
+  }
+}
